@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
-    home: Scaffold(
+    home: Home(),
+  ));
+
+class Home extends StatelessWidget {
+  const Home({ Key? key }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
       appBar: AppBar(
         title: Text("TITLE",
         style: TextStyle(fontWeight: FontWeight.bold,fontSize: 25),),
@@ -24,5 +32,6 @@ void main() => runApp(MaterialApp(
         child: Text("Click"),
         backgroundColor: Colors.red,
       ),
-      ),
-  ));
+      );
+  }
+}
