@@ -19,7 +19,9 @@ class Home extends StatelessWidget {
       ),
       body:Container(
         color: Colors.amber[300] ,
-
+        child:Text("I am the container"),
+        margin: EdgeInsets.fromLTRB(10, 20, 30, 40),
+        padding: EdgeInsets.fromLTRB(40, 30, 20, 10),
         )
       );
   }
