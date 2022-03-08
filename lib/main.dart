@@ -18,19 +18,16 @@ class Home extends StatelessWidget {
         
       ),
       body:Center(
-        child: Text("<BODY>",
-        style: TextStyle(
-          fontWeight: FontWeight.bold,
-          fontSize: 22,
-          color: Colors.white,
+        // child: Icon(
+        //   Icons.airport_shuttle
+        // ),
+        child: ElevatedButton(
+          onPressed: ()=>{
+            print("You clicked me bro!")
+          },
+          child: Text("Hey There!"),
         ),
-        ),
-      ),
-      backgroundColor: Color.fromARGB(255, 0, 0, 0),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => {},
-        child: Text("Click"),
-        backgroundColor: Colors.red,
+        
       ),
       );
   }
