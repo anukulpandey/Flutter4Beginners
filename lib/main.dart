@@ -17,24 +17,10 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red,
         
       ),
-      body:Center(
-        // child: Icon(
-        //   Icons.airport_shuttle
-        // ),
-        // child: ElevatedButton(
-        //   onPressed: ()=>{
-        //     print("You clicked me bro!")
-        //   },
-        //   child: Text("Hey There!"),
-        // ),
-        child: TextButton(
-          onPressed: ()=>{
-            print("You clicked me bro!")
-          },
-          child: Text("Hey There!"),
-        ),
-        
-      ),
+      body:Container(
+        color: Colors.amber[300] ,
+
+        )
       );
   }
 }
