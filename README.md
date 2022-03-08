@@ -1,16 +1,6 @@
-# ninja
+# Flutter for Beginners
 
-A new Flutter project.
+Hey Folks! This is the repository I made while learning Flutter, You can take referece from here if you are interested. To check different topics just check the branches I made, It will be easier for you to navigate from there :)
 
-## Getting Started
+![alt text](https://instabug.com/blog/wp-content/uploads/2020/02/AppDev_Flutter-Apps.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
